@@ -1,0 +1,363 @@
+body {
+    background-color: #0F1C2E;
+}
+
+/** Navbar*/
+nav {
+    background-color: #4d648d;
+    overflow: hidden;
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+
+    float: left;
+}
+
+nav li a {
+    font-size: 26px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li img {
+    width: 35px;
+    height: 35px;
+
+}
+
+/** Biography */
+.intro {
+    display: flex;
+    height: 300px;
+    margin: 50px;
+    padding: 80px;
+    background-color: #acc2ef;
+    border-radius: 25px;
+}
+
+.bio {
+    color: #1f2b3e;
+    padding-right: 350px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+
+    background-color: #1f2b3e;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.intro img {
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/** Socials */
+.socials {
+    background-color: #4d648d;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    color: #acc2ef;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 10px 50px 50px;
+}
+
+.socials ul {
+    list-style: none;
+    display: flex;
+}
+
+.socials li {
+    margin: 0 10px;
+
+}
+
+/** Studies*/
+.study {
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.study-box {
+    background-color: #4d648d;
+    width: 60%;
+    margin: 50px 60px;
+    border: 1px solid #1f2b3e;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.text,
+.image {
+    color: #cee8ff;
+    float: left;
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.study-box h2 {
+    color: #1f2b3e;
+    font-size: 35px;
+}
+
+.study-box h1 {
+    font-size: 25px;
+}
+
+.study-box p {
+    font-size: 25px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+/* Studies POPUP*/
+.tem {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.tem-content {
+    background-color: #1F3A5F;
+    padding: 20px;
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/** Techno*/
+.competence {
+    font-size: 35px;
+    border-radius: 30px;
+    background-color: #3D5A80;
+    text-align: center;
+    justify-self: center;
+    margin: 20px;
+    width: 90%;
+    color: #1f2b3e;
+}
+
+
+.tech {
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tech img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin: 10px;
+}
+
+.techno img {
+    text-align: center;
+    margin: 10px;
+}
+
+/** Subkects */
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #4d648d;
+    color: #cee8ff;
+
+    margin: 60px auto;
+}
+
+th,
+td {
+    border: 1px solid #cee8ff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+#nb {
+    color: #c21d03;
+    text-align: center;
+
+}
+
+/** Resume */
+#title {
+    text-align: center;
+    color: #cee8ff;
+    font-size: 15;
+}
+
+main {
+    background-color: #cee8ff;
+    margin: 0 15% 0 15%;
+}
+
+main h2 {
+    color: #0F1C2E;
+}
+
+.about,
+.experience,
+.projects,
+.skills {
+
+    margin: 0 15% 0 15%;
+    padding: 15px 0;
+    text-align: left;
+    font-size: 19px;
+}
+
+/** POPUP*/
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #1F3A5F;
+    padding: 20px;
+    width: 50%;
+    height: 60%;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup input,
+.popup textarea {
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #cee8ff;
+    color: #0F1C2E;
+    font-size: 15px;
+
+}
+
+.popup button {
+    padding: 10px 20px;
+    background-color: #0F1C2E;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+
+}
+
+/**Quizz*/
+.quiz {
+    text-align: center;
+    margin: 20px;
+    width: 70%;
+    border-radius: 25px;
+    justify-self: center;
+    font-size: 25px;
+}
+
+
+.question {
+    text-align: center;
+    margin: 20px;
+    width: 70%;
+    border-radius: 25px;
+    justify-self: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    background-color: #4d648d;
+}
+
+.quiz ul {
+    width: 30%;
+    justify-self: center;
+    list-style-type: none;
+    padding: 0;
+
+
+}
+
+.quiz li {
+    background-color: #acc2ef;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+#submit {
+    padding: 10px 40px 10px 50px;
+    color: #0F1C2E;
+    background-color: #cee8ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #c21d03;
+}

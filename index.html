@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html"><img src="assets/logo/home.svg" alt="" /> </a>
+        </li>
+        <li>
+          <a href="screens/parcour.html"
+            ><img src="assets/logo/school.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="screens/tools.html"
+            ><img src="assets/logo/tool.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="screens/subjects.html"
+            ><img src="assets/logo/subject.png" alt=""
+          /></a>
+        </li>
+
+        <li>
+          <a href="screens/experience.html"
+            ><img src="assets/logo/inter.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="screens/quiz.html"><img src="assets/logo/quiz.png" alt="" /></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="intro">
+      <div class="bio">
+        <h1>Jecem Ben Slama</h1>
+        <p>
+          Hi, I'm Jecem,<br />
+          a creative Mobile Developer who loves to craft visually stunning Apps.
+          <br />I'm Also A "computer Science" Student.
+        </p>
+        <button id="openPopup">Contact</button>
+      </div>
+      <img src="assets/per1.jpeg" alt="" />
+    </div>
+    <div class="socials">
+      <p>My Socials</p>
+      <ul>
+        <a href="www.linkedin.com/in/jecem-ben-slama" target="_blank">
+          <li><img src="assets/logo/linked.svg" alt="" /></li
+        ></a>
+        <a href="https://github.com/jecem-ben-slama" target="_blank">
+          <li><img src="assets/logo/git.svg" alt="" /></li
+        ></a>
+        <a href="https://www.instagram.com/jecembenslama/" target="_blank">
+          <li><img src="assets/logo/icons8-instagram.svg" alt="" /></li
+        ></a>
+      </ul>
+    </div>
+
+   <div id="popup" class="popup">
+        <div class="popup-content">
+       
+            <h2>Contact Us</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="dd1d7972-9955-4ddf-8c6d-e4004da26ae3">
+                <input  name='first_name' type="text"  placeholder="Name" required>
+                <input type="email" name="email"  placeholder="Email" required>
+                <textarea  name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>

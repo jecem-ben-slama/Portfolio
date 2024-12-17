@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>Studies</title>
+</head>
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a href="../index.html"><img src="../assets/logo/home.svg" alt="" /> </a>
+      </li>
+      <li>
+        <a href="parcour.html"><img src="../assets/logo/school.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="tools.html"><img src="../assets/logo/tool.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="subjects.html"><img src="../assets/logo/subject.png" alt="" /></a>
+      </li>
+
+      <li>
+        <a href="experience.html"><img src="../assets/logo/inter.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="quiz.html"><img src="../assets/logo/quiz.png" alt="" /></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+
+
+  <div class="study">
+    <div class="study-box">
+      <div class="text">
+        <h2>Bac</h2>
+        <h1>18 Janviers Jebeniana</h1>
+        <p>I have Successfully obtained my bachelor's degree in "experimental sciences" with honors </p>
+      </div>
+      <div class="image">
+        <img src="../assets/18.jpg" alt="Image 1">
+      </div>
+    </div>
+    <div class="study-box">
+      <div class="text">
+        <h2>Bachelor's Degree </h2>
+        <h1>Istic Borj Cedria</h1>
+        <p>I have Successfully obtained my national degree in "computer engineering" with a specialty in "Embedded
+          Systems & IOT"</p>
+      </div>
+      <div class="image">
+        <img src="../assets/istic.jpg" alt="Image 2">
+      </div>
+    </div>
+    <div class="study-box">
+      <div class="text">
+        <h2>Egineering Degree </h2>
+        <h1><span id="tem">IIT</span> Sfax</h1>
+        <div class="tem">
+          <div class="tem-content">
+            <p>Studying at "IIT" was a transformative experience. The rigorous academic program, coupled
+              with supportive faculty, equipped me with the knowledge and skills I needed to succeed. I particularly
+              enjoyed the hands-on projects and the opportunity to collaborate with fellow students and industry
+              professionals. I highly recommend it to anyone seeking a quality education</p>
+            <button class="close">Close</button>
+          </div>
+        </div>
+        <p>I am currently pursuing my engineering degree in "Computer Science" to further improve my expereriences and
+          my knowlegde in the domain of IT </p>
+      </div>
+      <div class="image">
+        <img src="..//assets/iit.jpg" alt="Image 3">
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+  <script>
+    const popupTrigger = document.getElementById('tem');
+    const popup1 = document.querySelector('.tem');
+    const closeButton = document.querySelector('.close');
+
+    popupTrigger.addEventListener('click', () => {
+      popup1.style.display = 'block';
+    });
+
+    closeButton.addEventListener('click', () => {
+      popup1.style.display = 'none';
+    });
+  </script>
+</body>
+
+</html>
